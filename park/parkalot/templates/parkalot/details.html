@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Details</title>
+</head>
+<style type="text/css">
+        .auto-style1 {
+            text-align: center;
+            background-color: #66ccff;
+        }
+        .auto-style3 {
+            color: #000000;
+            font-size: 29pt
+        }
+        .auto-style4 {
+            font-size: 100pt;
+            font-family: "Cooper Black";
+        }
+    </style>
+</head>
+<body style="background-color: #f2f2f2">
+    <form id="form1">
+        <div>
+        </div>
+        <p class="auto-style1">
+
+            <span class="auto-style4"><font face="verdana"align="center"><b>&nbspParkAlot</b><br></font> </span>
+        </p>
+
+       <span class="auto-style3" ><strong>Car Number :{{ carn.carnum }}</strong></span>
+        <br class="auto-style3" />
+        <br class="auto-style3" />
+        <br class="auto-style3" />
+        <span class="auto-style3"><strong>
+            Parking Slot :{{ carn.parkspace.slotname }}</strong><br>
+        <br />
+        </span>
+        <p class="auto-style3">
+            <strong><a font face="verdana" align="center">Time of Entry :{{ carn.star_time }}</a></strong></p>
+        <p class="auto-style3">
+
+            </p>
+        <span class="auto-style3">
+            </p>
+        <a href ="{{carn.parkspace.maps}}" color="white">Open in Maps!</a>
+        </span>
+    </form>
+</body>
+</html>
